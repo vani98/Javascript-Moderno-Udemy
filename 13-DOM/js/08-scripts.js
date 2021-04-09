@@ -9,12 +9,16 @@ const navegacion = document.querySelector(".navegacion");
 // console.log(navegacion.children[0].nodeType);
 
     const card = document.querySelector(".card");
+    //veo el texto
+    // console.log(card.children[1].children[1]);
+    //lo modifico
     // card.children[1].children[1].textContent = "Nuevo Heading Desde Traversing The DOM";
     // card.children[0].src = "img/hacer3.jpg"
     // console.log(card.children[0]);   
 
     // traversing the dom de children a padre
     // console.log(card.parentNode); 
+    // console.log(card.parentElement);
     // console.log(card.parentElement.parentElement.parentElement); 
 
     //Traversing the dom entre hermanos
@@ -33,5 +37,5 @@ const navegacion = document.querySelector(".navegacion");
 
 
 const contenedor = document.querySelector(".contenedor-cards");
-console.log(contenedor.firstElementChild);
-console.log(contenedor.lastElementChild);
+// console.log(contenedor.firstElementChild);
+// console.log(contenedor.lastElementChild);
